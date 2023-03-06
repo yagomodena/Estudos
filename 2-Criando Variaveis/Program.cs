@@ -7,7 +7,8 @@ class Program
         Console.WriteLine("Projeto 2 - Criando variaveis");
 
         //atribuindo a idade um valor inteiro
-        int idade;
+        Console.WriteLine("Digite sua idade:");
+        var idade = Console.ReadLine();
         idade = 21;
         Console.WriteLine(idade);
         idade = 21 - 5;
